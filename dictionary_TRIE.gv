@@ -1,0 +1,390 @@
+// Trie
+digraph {
+	node [fontsize=8]
+	node [height=0.1]
+	node [width=0.1]
+	node [fixedsize=false]
+	node [shape=circle]
+	edge [arrowsize=0.3]
+	0
+	node [shape=diamond]
+	1 [label="환"]
+	0 -> 1
+	node [shape=box]
+	node [fontname=NanumGothic]
+	2 [label="에/부사격조사"]
+	0 -> 2
+	node [shape=box]
+	node [fontname=NanumGothic]
+	3 [label="는/관형형전성어미,보조사"]
+	0 -> 3
+	node [shape=diamond]
+	4 [label="일"]
+	0 -> 4
+	node [shape=box]
+	node [fontname=NanumGothic]
+	5 [label="가/주격조사"]
+	0 -> 5
+	node [shape=diamond]
+	6 [label="심"]
+	0 -> 6
+	node [shape=box]
+	node [fontname=NanumGothic]
+	7 [label="니/의존적연결어미"]
+	0 -> 7
+	node [shape=diamond]
+	8 [label="특"]
+	0 -> 8
+	node [shape=diamond]
+	9 [label="감"]
+	0 -> 9
+	node [shape=box]
+	node [fontname=NanumGothic]
+	10 [label="를/목적격조사"]
+	0 -> 10
+	node [shape=diamond]
+	11 [label="조"]
+	0 -> 11
+	node [shape=box]
+	node [fontname=NanumGothic]
+	12 [label="하/동사파생접미사,동사"]
+	0 -> 12
+	node [shape=box]
+	node [fontname=NanumGothic]
+	13 [label="자/종결어미"]
+	0 -> 13
+	node [shape=box]
+	node [fontname=NanumGothic]
+	14 [label="./마침표"]
+	0 -> 14
+	node [shape=box]
+	node [fontname=NanumGothic]
+	15 [label="나/대명사,동사"]
+	0 -> 15
+	node [shape=diamond]
+	16 [label="종"]
+	0 -> 16
+	node [shape=diamond]
+	17 [label="박"]
+	0 -> 17
+	node [shape=box]
+	node [fontname=NanumGothic]
+	18 [label="기/명사형전성어미"]
+	0 -> 18
+	node [shape=box]
+	node [fontname=NanumGothic]
+	19 [label="로/부사격조사"]
+	0 -> 19
+	node [shape=diamond]
+	20 [label="마"]
+	0 -> 20
+	node [shape=box]
+	node [fontname=NanumGothic]
+	21 [label="을/목적격조사"]
+	0 -> 21
+	node [shape=box]
+	node [fontname=NanumGothic]
+	22 [label="먹/동사"]
+	0 -> 22
+	node [shape=box]
+	node [fontname=NanumGothic]
+	23 [label="었/선어말어미"]
+	0 -> 23
+	node [shape=box]
+	node [fontname=NanumGothic]
+	24 [label="다/종결어미"]
+	0 -> 24
+	node [shape=box]
+	node [fontname=NanumGothic]
+	25 [label="들/보조용언"]
+	0 -> 25
+	node [shape=diamond]
+	26 [label="사"]
+	0 -> 26
+	node [shape=diamond]
+	27 [label="명"]
+	0 -> 27
+	node [shape=box]
+	node [fontname=NanumGothic]
+	28 [label="이/서술격조사,긍정지정사,주격조사"]
+	0 -> 28
+	node [shape=diamond]
+	29 [label="위"]
+	0 -> 29
+	node [shape=box]
+	node [fontname=NanumGothic]
+	30 [label="서/의존적연결어미"]
+	0 -> 30
+	node [shape=box]
+	node [fontname=NanumGothic]
+	31 [label="그/일반관형사"]
+	0 -> 31
+	node [shape=diamond]
+	32 [label="우"]
+	0 -> 32
+	node [shape=box]
+	node [fontname=NanumGothic]
+	33 [label="말/보통명사"]
+	0 -> 33
+	node [shape=diamond]
+	34 [label="머"]
+	0 -> 34
+	node [shape=diamond]
+	35 [label="오"]
+	0 -> 35
+	node [shape=box]
+	node [fontname=NanumGothic]
+	36 [label="되/동사파생접미사"]
+	0 -> 36
+	node [shape=box]
+	node [fontname=NanumGothic]
+	37 [label="고/대등적연결어미,대등연결어미,의존적연결어미"]
+	0 -> 37
+	node [shape=diamond]
+	38 [label="생"]
+	0 -> 38
+	node [shape=box]
+	node [fontname=NanumGothic]
+	39 [label="야/의존적연결어미"]
+	0 -> 39
+	node [shape=diamond]
+	40 [label="한"]
+	0 -> 40
+	node [shape=diamond]
+	41 [label="문"]
+	0 -> 41
+	node [shape=box]
+	node [fontname=NanumGothic]
+	42 [label="해/동사"]
+	0 -> 42
+	node [shape=diamond]
+	43 [label="능"]
+	0 -> 43
+	node [shape=box]
+	node [fontname=NanumGothic]
+	44 [label="도/보조사"]
+	0 -> 44
+	node [shape=diamond]
+	45 [label="중"]
+	0 -> 45
+	node [shape=box]
+	node [fontname=NanumGothic]
+	46 [label="지/의존적연결어미"]
+	0 -> 46
+	node [shape=diamond]
+	47 [label="새"]
+	0 -> 47
+	node [shape=diamond]
+	48 [label="발"]
+	0 -> 48
+	node [shape=box]
+	node [fontname=NanumGothic]
+	49 [label="왜/일반부사"]
+	0 -> 49
+	node [shape=box]
+	node [fontname=NanumGothic]
+	50 [label="인/관형형전성어미,긍정지정사"]
+	0 -> 50
+	node [shape=box]
+	node [fontname=NanumGothic]
+	51 [label="것/일반의존명사"]
+	0 -> 51
+	node [shape=diamond]
+	52 [label="좋"]
+	0 -> 52
+	node [shape=box]
+	node [fontname=NanumGothic]
+	53 [label="은/보조사"]
+	0 -> 53
+	node [shape=diamond]
+	54 [label="대"]
+	0 -> 54
+	node [shape=box]
+	node [fontname=NanumGothic]
+	55 [label="게/의존적연결어미"]
+	0 -> 55
+	node [shape=box]
+	node [fontname=NanumGothic]
+	56 [label="주/보조동사"]
+	0 -> 56
+	node [shape=diamond]
+	57 [label="바"]
+	0 -> 57
+	node [shape=diamond]
+	58 [label="절"]
+	1 -> 58
+	node [shape=box]
+	node [fontname=NanumGothic]
+	59 [label="게/부사격조사"]
+	2 -> 59
+	node [shape=diamond]
+	60 [label="교"]
+	4 -> 60
+	node [shape=box]
+	node [fontname=NanumGothic]
+	61 [label="하/형용사"]
+	6 -> 61
+	node [shape=box]
+	node [fontname=NanumGothic]
+	62 [label="히/일반부사"]
+	8 -> 62
+	node [shape=box]
+	node [fontname=NanumGothic]
+	63 [label="기/보통명사"]
+	9 -> 63
+	node [shape=box]
+	node [fontname=NanumGothic]
+	64 [label="심/보통명사"]
+	11 -> 64
+	node [shape=diamond]
+	65 [label="기"]
+	12 -> 65
+	node [shape=diamond]
+	66 [label="원"]
+	16 -> 66
+	node [shape=box]
+	node [fontname=NanumGothic]
+	67 [label="사/보통명사"]
+	17 -> 67
+	node [shape=box]
+	node [fontname=NanumGothic]
+	68 [label="억/보통명사"]
+	18 -> 68
+	node [shape=box]
+	node [fontname=NanumGothic]
+	69 [label="쁘/형용사"]
+	18 -> 69
+	node [shape=box]
+	node [fontname=NanumGothic]
+	70 [label="음/보통명사"]
+	20 -> 70
+	node [shape=box]
+	node [fontname=NanumGothic]
+	71 [label="고/연결어미"]
+	24 -> 71
+	node [shape=box]
+	node [fontname=NanumGothic]
+	72 [label="시/일반부사"]
+	24 -> 72
+	node [shape=box]
+	node [fontname=NanumGothic]
+	73 [label="실/일반부사"]
+	26 -> 73
+	node [shape=box]
+	node [fontname=NanumGothic]
+	74 [label="람/보통명사"]
+	26 -> 74
+	node [shape=box]
+	node [fontname=NanumGothic]
+	75 [label="랑/보통명사"]
+	26 -> 75
+	node [shape=box]
+	node [fontname=NanumGothic]
+	76 [label="언/보통명사"]
+	27 -> 76
+	node [shape=box]
+	node [fontname=NanumGothic]
+	77 [label="심/보통명사"]
+	27 -> 77
+	node [shape=box]
+	node [fontname=NanumGothic]
+	78 [label="해/보통명사"]
+	28 -> 78
+	node [shape=box]
+	node [fontname=NanumGothic]
+	79 [label="해/동사"]
+	29 -> 79
+	node [shape=box]
+	node [fontname=NanumGothic]
+	80 [label="리/대명사"]
+	32 -> 80
+	node [shape=box]
+	node [fontname=NanumGothic]
+	81 [label="선/보통명사"]
+	32 -> 81
+	node [shape=diamond]
+	82 [label="릿"]
+	34 -> 82
+	node [shape=box]
+	node [fontname=NanumGothic]
+	83 [label="래/일반부사"]
+	35 -> 83
+	node [shape=box]
+	node [fontname=NanumGothic]
+	84 [label="각/보통명사"]
+	38 -> 84
+	node [shape=box]
+	node [fontname=NanumGothic]
+	85 [label="다/동사"]
+	40 -> 85
+	node [shape=box]
+	node [fontname=NanumGothic]
+	86 [label="제/보통명사"]
+	41 -> 86
+	node [shape=box]
+	node [fontname=NanumGothic]
+	87 [label="결/보통명사"]
+	42 -> 87
+	node [shape=box]
+	node [fontname=NanumGothic]
+	88 [label="력/보통명사"]
+	43 -> 88
+	node [shape=box]
+	node [fontname=NanumGothic]
+	89 [label="요/보통명사"]
+	45 -> 89
+	node [shape=box]
+	node [fontname=NanumGothic]
+	90 [label="만/대등연결어미"]
+	46 -> 90
+	node [shape=diamond]
+	91 [label="로"]
+	47 -> 91
+	node [shape=box]
+	node [fontname=NanumGothic]
+	92 [label="견/보통명사"]
+	48 -> 92
+	node [shape=box]
+	node [fontname=NanumGothic]
+	93 [label="해/동사"]
+	50 -> 93
+	node [shape=diamond]
+	94 [label="아"]
+	52 -> 94
+	node [shape=box]
+	node [fontname=NanumGothic]
+	95 [label="상/보통명사"]
+	54 -> 95
+	node [shape=box]
+	node [fontname=NanumGothic]
+	96 [label="라/동사"]
+	57 -> 96
+	node [shape=box]
+	node [fontname=NanumGothic]
+	97 [label="기/보통명사"]
+	58 -> 97
+	node [shape=box]
+	node [fontname=NanumGothic]
+	98 [label="차/보통명사"]
+	60 -> 98
+	node [shape=box]
+	node [fontname=NanumGothic]
+	99 [label="로/동사"]
+	65 -> 99
+	node [shape=box]
+	node [fontname=NanumGothic]
+	100 [label="이/보통명사"]
+	66 -> 100
+	node [shape=box]
+	node [fontname=NanumGothic]
+	101 [label="속/보통명사"]
+	82 -> 101
+	node [shape=box]
+	node [fontname=NanumGothic]
+	102 [label="운/형용사"]
+	91 -> 102
+	node [shape=box]
+	node [fontname=NanumGothic]
+	103 [label="하/동사"]
+	94 -> 103
+}
