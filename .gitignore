@@ -1,8 +1,8 @@
 .ipynb_checkpoints
-.zip
-.bat
-.html
-.py
+*.zip
+*.bat
+*.html
+*.py
 
 
 
