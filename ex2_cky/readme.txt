@@ -33,7 +33,7 @@ cky_parser.html: 소스코드, 문장별로 사용된 구구조문법 인덱스 로그, 분석완료된 Pa
 #### 참고사항 ####
 1. used_grammar.txt및 output.txt에 출력되는 내용은 콘솔에서도 동일하게 출력된다.
 
-2. 257라인에 trees = parser.parse(line, "used_grammar.txt", True) 중 마지막 파라메터를 True로 주면 콘솔 및 table.txt에 각 문장에 대한 CKY Parse Table이 출력된다. 
+2. 252라인에 trees = parser.parse(line, "used_grammar.txt", True) 중 마지막 파라메터를 True로 주면 콘솔 및 table.txt에 각 문장에 대한 CKY Parse Table이 출력된다. 
 
 3. used_grammar.txt에서 "# packed !" 가 뒤쪽에 붙어있는 줄의 경우, 기존에 이미 Parsing 되어 Table에 노드가 추가 되었으나 해당 노드의 Sub Parse Tree가 새로 등장한 경우를 나타낸다. (즉 Packing되는 시점) 
 따라서 해당 줄의 인덱스는 기존에 등장했던 인덱스 번호와 동일하다. 
