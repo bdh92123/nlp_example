@@ -1,0 +1,29 @@
+####### I saw a man on the hill with the telescope #######
+I                   	saw                 	a                   	man                 	on                  	the                 	hill                	with                	the                 	telescope           	
+n,NP                	NP                  	                    	NP                  	                    	                    	NP                  	                    	                    	S,NP                	
+                    	n,VP,v,NP           	                    	VP                  	                    	                    	VP                  	                    	                    	VP                  	
+                    	                    	DT,det              	NP                  	                    	                    	NP                  	                    	                    	NP                  	
+                    	                    	                    	n,VP,v,NP           	                    	                    	VP,NP               	                    	                    	VP,NP               	
+                    	                    	                    	                    	P,p                 	                    	PP                  	                    	                    	PP                  	
+                    	                    	                    	                    	                    	DT,det              	NP                  	                    	                    	NP                  	
+                    	                    	                    	                    	                    	                    	n,NP                	                    	                    	NP                  	
+                    	                    	                    	                    	                    	                    	                    	P,p                 	                    	PP                  	
+                    	                    	                    	                    	                    	                    	                    	                    	DT,det              	NP                  	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	n,NP                	
+####### time flies like an arrow #######
+time                	flies               	like                	an                  	arrow               	
+n,VP,v,NP           	VP,NP               	VP,NP               	                    	VP,S,NP             	
+                    	n,VP,v,NP           	NP                  	                    	VP,NP               	
+                    	                    	P,p,VP,v            	                    	PP,VP               	
+                    	                    	                    	DT,det              	NP                  	
+                    	                    	                    	                    	n,NP                	
+####### the man saw the man with the telescope #######
+the                 	man                 	saw                 	the                 	man                 	with                	the                 	telescope           	
+DT,det              	NP                  	NP                  	                    	NP                  	                    	                    	NP,S                	
+                    	n,VP,v,NP           	VP,NP               	                    	NP,VP               	                    	                    	NP,VP               	
+                    	                    	n,VP,v,NP           	                    	VP                  	                    	                    	VP                  	
+                    	                    	                    	DT,det              	NP                  	                    	                    	NP                  	
+                    	                    	                    	                    	n,VP,v,NP           	                    	                    	VP,NP               	
+                    	                    	                    	                    	                    	P,p                 	                    	PP                  	
+                    	                    	                    	                    	                    	                    	DT,det              	NP                  	
+                    	                    	                    	                    	                    	                    	                    	n,NP                	
